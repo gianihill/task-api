@@ -11,7 +11,7 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = env("DATABASE_URL")
+  url      = "postgresql://gianihill:rootroot@localhost:5432/task_db"
 }
 
 model Task {
