@@ -11,7 +11,7 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = "postgresql://gianihill:rootroot@localhost:5432/task_db"
+  url      = "postgresql://gianihill:rootroot@localhost:8080/task_db"
 }
 
 model Task {
